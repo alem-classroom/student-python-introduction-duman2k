@@ -16,4 +16,3 @@ def sort_list(list):
 
 def reverse(list):
     return list.reverse()
-    
