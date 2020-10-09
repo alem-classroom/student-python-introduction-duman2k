@@ -12,7 +12,9 @@ def count_elements_in_list(list, x):
     return list.count(x)
 
 def sort_list(list):
-    return list.sort()
+    list.sort()
+    return list
 
 def reverse(list):
-    return list.reverse()
+    list.reverse()
+    return list
