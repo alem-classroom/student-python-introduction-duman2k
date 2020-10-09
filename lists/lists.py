@@ -4,7 +4,8 @@ def size_of_list(list):
 
 def add_elem_to_list(list, elem):
     # add elem to list and return the list
-    return list.append(elem)
+    list.append(elem)
+    return list
 
 def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
