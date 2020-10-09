@@ -1,9 +1,10 @@
 def size_of_set(set):
     # return size of set  
     return len(set)
+
 def is_elem_in_set(set, elem):
     # return true if elem exists in set, false otherwise
-    return elem in set
+    return True if elem in set else False
 
 def are_sets_equal(first_set, second_set):
     # return true if sets have the same elements inside, otherwise false
