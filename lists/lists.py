@@ -18,8 +18,10 @@ def count_elements_in_list(list, x):
 
 def sort_list(list):
     # return sorted list
-    return list.sort()
+    list.sort()
+    return list
 
 def reverse(list):
     # return reversed list
-    return list.reverse()
+    list.reverse()
+    return list
