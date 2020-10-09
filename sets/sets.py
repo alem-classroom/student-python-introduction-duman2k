@@ -22,4 +22,5 @@ def remove_elem_if_exists(set, elem):
 
 def delete_first_element(set):
     # delete first elemenent of set
-    return set.pop()
+    set.pop()
+    return set
