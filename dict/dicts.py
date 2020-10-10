@@ -21,5 +21,4 @@ def delete_dict_element_by_key(dict, key):
         dict.pop(key)
     return dict
 
-print(delete_dict_element_by_key({12:'123'}, 12))
 
