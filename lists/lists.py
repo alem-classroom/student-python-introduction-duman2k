@@ -8,9 +8,8 @@ def add_elem_to_list(list, elem):
 def delete_elem_from_list(list, index = -1):
     if len(list) <= index:
         index = -1
-    #list.pop(index)
-    #return list
-    return list.pop(index)
+    list.pop(index)
+    return list
     
 
 def count_elements_in_list(list, x):
