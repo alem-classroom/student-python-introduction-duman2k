@@ -17,7 +17,7 @@ def get_dict_value_by_key(dict, key):
 
 def delete_dict_element_by_key(dict, key):
     # delete and return element from dict, such that its key is the argument key
-    if key !in dict.keys():
+    if key not in dict.keys():
         return {}
     return dict.pop(key)
 
