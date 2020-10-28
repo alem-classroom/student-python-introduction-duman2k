@@ -17,9 +17,12 @@ def get_dict_value_by_key(dict, key):
 
 def delete_dict_element_by_key(dict, key):
     # delete and return element from dict, such that its key is the argument key
-    if key in dict:
-        return dict.pop(key)
+    dict.pop(key)
     return dict
+    
+    #if key in dict:
+    #    return dict.pop(key)
+    #return dict
     
     #if key in dict:
     #    return dict.pop(key)
