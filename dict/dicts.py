@@ -21,8 +21,7 @@ def delete_dict_element_by_key(dict, key):
     if key in dict:
         dict.pop(key)
         return dict
-    return
-
+    return None
     #1
     #dict.pop(key)
     #return dict
