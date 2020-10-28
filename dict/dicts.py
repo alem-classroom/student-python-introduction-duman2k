@@ -17,35 +17,7 @@ def get_dict_value_by_key(dict, key):
 
 def delete_dict_element_by_key(dict, key):
     # delete and return element from dict, such that its key is the argument key
-    
     if key in dict:
-        return dict.pop(key)
+        dict.pop(key)
+    return dict
         
-    #0
-    #if key in dict:
-    #    dict.pop(key)
-    #    return dict
-    
-
-    #1
-    #dict.pop(key)
-    #return dict
-
-    #2
-    #if key in dict:
-    #    return dict.pop(key)
-    #return dict
-    #3
-    #if key in dict:
-    #    return dict.pop(key)
-    #4
-    #return dict.pop(key)
-    #5
-    #if key in dict:
-    #    dict.pop(key)
-    #return dict
-    #6
-    #if key in dict:
-    #    dict.pop(key)
-    #    return dict
-    #return
